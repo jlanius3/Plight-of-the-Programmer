@@ -63,6 +63,16 @@ namespace Plight_of_the_Programmer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap floor {
+            get {
+                object obj = ResourceManager.GetObject("floor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap jordan {
             get {
                 object obj = ResourceManager.GetObject("jordan", resourceCulture);
@@ -137,29 +147,6 @@ namespace Plight_of_the_Programmer.Properties {
             get {
                 object obj = ResourceManager.GetObject("platRightDigital", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 16
-        ///12
-        ///digital
-        ///1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-        ///1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-        ///1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-        ///1,0,0,0,0,3,4,0,0,0,0,0,0,0,0,1
-        ///1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-        ///1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-        ///1,0,0,0,0,0,0,0,0,3,2,2,4,0,0,1
-        ///1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-        ///1,0,0,3,2,2,4,0,0,0,0,0,0,0,0,1
-        ///1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-        ///1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-        ///1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1.
-        /// </summary>
-        internal static string w1s1 {
-            get {
-                return ResourceManager.GetString("w1s1", resourceCulture);
             }
         }
         

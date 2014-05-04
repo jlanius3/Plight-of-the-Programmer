@@ -10,7 +10,8 @@ namespace Plight_of_the_Programmer
 {
     class Game
     {
-        /*-----Constants-----*/
+        /*-----Variables-----*/
+        public static bool paused = false;
 
         /*-----Members-----*/
         private GraphicsEngine grEngine;
@@ -21,6 +22,17 @@ namespace Plight_of_the_Programmer
             grEngine.initGraphics();
         }
 
+        public void pause()
+        {
+            paused = true;
+        }
+
+        public void unpause()
+        {
+            grEngine.unpause();
+            paused = false;
+        }
+
         public void stopGame()
         {
             grEngine.stopGraphics();
@@ -29,6 +41,20 @@ namespace Plight_of_the_Programmer
 
     public enum TextureID
     {
-        air, wall, platformC, platformL, platformR
+        air,
+        playerSpawn,
+        levelEnd,
+        floorL,
+        floorC,
+        floorR,
+        floorB,
+        wallL,
+        wallC,
+        wallR,
+        wallB,
+        platformL,
+        platformC,
+        platformR,
+        platformB
     }
 }

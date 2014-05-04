@@ -33,6 +33,7 @@
             this.pbMenu = new System.Windows.Forms.PictureBox();
             this.btnCharacter = new System.Windows.Forms.Button();
             this.pbCharacter = new System.Windows.Forms.PictureBox();
+            this.pnlPause = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pbMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCharacter)).BeginInit();
             this.SuspendLayout();
@@ -111,6 +112,15 @@
             this.pbCharacter.TabIndex = 4;
             this.pbCharacter.TabStop = false;
             // 
+            // pnlPause
+            // 
+            this.pnlPause.Enabled = false;
+            this.pnlPause.Location = new System.Drawing.Point(200, 175);
+            this.pnlPause.Name = "pnlPause";
+            this.pnlPause.Size = new System.Drawing.Size(400, 250);
+            this.pnlPause.TabIndex = 5;
+            this.pnlPause.Visible = false;
+            // 
             // GameWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -118,6 +128,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(15)))), ((int)(((byte)(0)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.pnlPause);
             this.Controls.Add(this.pbCharacter);
             this.Controls.Add(this.btnCharacter);
             this.Controls.Add(this.btnPlay);
@@ -147,6 +158,7 @@
         private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.Button btnCharacter;
         private System.Windows.Forms.PictureBox pbCharacter;
+        private System.Windows.Forms.Panel pnlPause;
     }
 }
 

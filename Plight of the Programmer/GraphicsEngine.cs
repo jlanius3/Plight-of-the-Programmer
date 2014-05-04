@@ -11,14 +11,15 @@ namespace Plight_of_the_Programmer
     class GraphicsEngine
     {
         /*-----Constants-----*/
-        private const int TILE_SIZE = 50;
+        public const int TILE_SIZE = 50;
 
         /*-----Variables-----*/
         private Bitmap tex_player;
+        private Bitmap tex_floor;
+        private Bitmap tex_wall;
         private Bitmap tex_platformC;
         private Bitmap tex_platformL;
         private Bitmap tex_platformR;
-        private Bitmap tex_wall;
         private Bitmap levelBitmap;
 
         /*-----Members-----*/
@@ -41,6 +42,11 @@ namespace Plight_of_the_Programmer
             renderThread.Start();
         }
 
+        public void unpause()
+        {
+            renderThread.Interrupt();
+        }
+
         public void stopGraphics()
         {
             renderThread.Abort();
@@ -58,6 +64,7 @@ namespace Plight_of_the_Programmer
                     tex_player = Plight_of_the_Programmer.Properties.Resources.michael;
                     break;
             }
+            tex_floor = Plight_of_the_Programmer.Properties.Resources.floor;
             tex_wall = Plight_of_the_Programmer.Properties.Resources.wall;
             tex_platformC = Plight_of_the_Programmer.Properties.Resources.platCenterDigital;
             tex_platformL = Plight_of_the_Programmer.Properties.Resources.platLeftDigital;
@@ -77,14 +84,23 @@ namespace Plight_of_the_Programmer
                 {
                     switch (textures[x, y])
                     {
-                        case TextureID.wall:
-                            levelGraphics.DrawImage(tex_wall, x * TILE_SIZE, y * TILE_SIZE);
+                        case TextureID.floorL:
+                        case TextureID.floorC:
+                        case TextureID.floorR:
+                        case TextureID.floorB:
+                            levelGraphics.DrawImage(tex_floor, x * TILE_SIZE, y * TILE_SIZE);
                             break;
-                        case TextureID.platformC:
-                            levelGraphics.DrawImage(tex_platformC, x * TILE_SIZE, y * TILE_SIZE);
+                        case TextureID.wallL:
+                        case TextureID.wallC:
+                        case TextureID.wallR:
+                        case TextureID.wallB:
+                            levelGraphics.DrawImage(tex_wall, x * TILE_SIZE, y * TILE_SIZE);
                             break;
                         case TextureID.platformL:
                             levelGraphics.DrawImage(tex_platformL, x * TILE_SIZE, y * TILE_SIZE);
+                            break;
+                        case TextureID.platformC:
+                            levelGraphics.DrawImage(tex_platformC, x * TILE_SIZE, y * TILE_SIZE);
                             break;
                         case TextureID.platformR:
                             levelGraphics.DrawImage(tex_platformR, x * TILE_SIZE, y * TILE_SIZE);
@@ -127,6 +143,11 @@ namespace Plight_of_the_Programmer
                     Console.WriteLine("GrEngine: " + framesRendered + " fps");
                     framesRendered = 0;
                     startTime = Environment.TickCount;
+                }
+
+                if (Game.paused == true)
+                {
+                    Thread.Sleep(Timeout.Infinite);
                 }
             }
         }

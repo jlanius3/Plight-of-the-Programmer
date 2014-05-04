@@ -118,7 +118,7 @@ namespace Plight_of_the_Programmer
         /*------------------------------------------------------------------
           Eventually make it so Up/Down Arrow Keys call following functions.
           ------------------------------------------------------------------ */
-
+        
         private void PlaySelect()
         {
             btnCharacter.Text = "Character";

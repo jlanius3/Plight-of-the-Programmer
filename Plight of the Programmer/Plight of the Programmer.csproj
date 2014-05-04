@@ -55,7 +55,6 @@
     </Compile>
     <Compile Include="GraphicsEngine.cs" />
     <Compile Include="Level.cs" />
-    <Compile Include="PhysicsEngine.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +91,7 @@
     <None Include="Resources\Avatar.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\PKMNFL_0.TTF" />
     <None Include="Resources\platformDigitalCenter.png" />
   </ItemGroup>
   <ItemGroup>
@@ -99,9 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\platformDigitalRight.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Platform.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Wall.png" />
@@ -120,6 +117,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\jordanRun.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platform.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
