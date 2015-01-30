@@ -25,6 +25,7 @@ namespace Plight_of_the_Programmer
         /*-----Members-----*/
         private Graphics drawHandle;
         private Thread renderThread;
+        private EventWaitHandle ewh;
 
         /*-----Functions-----*/
         public GraphicsEngine(Graphics g)
@@ -38,18 +39,29 @@ namespace Plight_of_the_Programmer
             buildLevel();
 
             // Starts the render thread
+            Player.Leftmovethread = new Thread(new ThreadStart(Player.movementleft));
+            Player.Vertmovethread = new Thread(new ThreadStart(Player.Vertmovement));
+            Player.Rightmovethread = new Thread(new ThreadStart(Player.movementright));
             renderThread = new Thread(new ThreadStart(render));
             renderThread.Start();
+            Player.Leftmovethread.Start();
+            Player.Vertmovethread.Start();
+            Player.Rightmovethread.Start();
+
+            
         }
 
         public void unpause()
         {
-            renderThread.Interrupt();
+            ewh.Set();
         }
 
         public void stopGraphics()
         {
             renderThread.Abort();
+            Player.Leftmovethread.Abort();
+            Player.Rightmovethread.Abort();
+            Player.Vertmovethread.Abort();
         }
 
         public void loadTiles()
@@ -118,6 +130,7 @@ namespace Plight_of_the_Programmer
             int framesRendered = 0;
             long startTime = Environment.TickCount;
             long endTime = 0;
+            ewh = new EventWaitHandle(false, EventResetMode.AutoReset);
 
             // Objects used for constructing the individual frames of the game.
             Bitmap frame = new Bitmap(GameWindow.CANVAS_WIDTH, GameWindow.CANVAS_HEIGHT);
@@ -147,7 +160,7 @@ namespace Plight_of_the_Programmer
 
                 if (Game.paused == true)
                 {
-                    Thread.Sleep(Timeout.Infinite);
+                    ewh.WaitOne();
                 }
             }
         }

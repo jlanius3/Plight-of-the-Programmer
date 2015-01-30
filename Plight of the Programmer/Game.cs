@@ -29,8 +29,8 @@ namespace Plight_of_the_Programmer
 
         public void unpause()
         {
-            grEngine.unpause();
             paused = false;
+            grEngine.unpause();
         }
 
         public void stopGame()

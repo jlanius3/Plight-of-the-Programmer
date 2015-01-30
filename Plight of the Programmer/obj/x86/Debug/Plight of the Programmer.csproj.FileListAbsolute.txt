@@ -1,0 +1,50 @@
+C:\Users\Jordan\Documents\School\IS274\Final Project\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Documents\School\IS274\Final Project\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.GameWindow.resources
+C:\Users\Jordan\Documents\School\IS274\Final Project\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.Properties.Resources.resources
+C:\Users\Jordan\Documents\School\IS274\Final Project\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csproj.GenerateResource.Cache
+C:\Users\Jordan\Documents\School\IS274\Final Project\Plight of the Programmer\bin\Debug\Plight of the Programmer.exe
+C:\Users\Jordan\Documents\School\IS274\Final Project\Plight of the Programmer\bin\Debug\Plight of the Programmer.pdb
+C:\Users\Jordan\Documents\School\IS274\Final Project\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.exe
+C:\Users\Jordan\Documents\School\IS274\Final Project\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.pdb
+C:\Users\Jordan\Documents\GitHub\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.exe
+C:\Users\Jordan\Documents\GitHub\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.pdb
+C:\Users\Jordan\Documents\GitHub\Plight-of-the-Programmer\Plight of the Programmer\bin\Debug\Plight of the Programmer.exe
+C:\Users\Jordan\Documents\GitHub\Plight-of-the-Programmer\Plight of the Programmer\bin\Debug\Plight of the Programmer.pdb
+C:\Users\Jordan\Documents\GitHub\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Documents\GitHub\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.GameWindow.resources
+C:\Users\Jordan\Documents\GitHub\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.Properties.Resources.resources
+C:\Users\Jordan\Documents\GitHub\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.exe
+C:\Users\Owner\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.pdb
+C:\Users\Owner\Desktop\Plight-of-the-Programmer\Plight of the Programmer\bin\Debug\Plight of the Programmer.exe
+C:\Users\Owner\Desktop\Plight-of-the-Programmer\Plight of the Programmer\bin\Debug\Plight of the Programmer.pdb
+C:\Users\Owner\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.GameWindow.resources
+C:\Users\Owner\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.Properties.Resources.resources
+C:\Users\Owner\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csproj.GenerateResource.Cache
+C:\Users\Jordan\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.exe
+C:\Users\Jordan\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.pdb
+C:\Users\Jordan\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.GameWindow.resources
+C:\Users\Jordan\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.Properties.Resources.resources
+C:\Users\Jordan\Desktop\Plight-of-the-Programmer\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csproj.GenerateResource.Cache
+C:\Users\Jordan\Desktop\Plight-of-the-Programmer\Plight of the Programmer\bin\Debug\Plight of the Programmer.exe
+C:\Users\Jordan\Desktop\Plight-of-the-Programmer\Plight of the Programmer\bin\Debug\Plight of the Programmer.pdb
+C:\Users\Owner\Desktop\Plight-of-the-Programmer (1)\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.exe
+C:\Users\Owner\Desktop\Plight-of-the-Programmer (1)\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.pdb
+C:\Users\Owner\Desktop\Plight-of-the-Programmer (1)\Plight of the Programmer\bin\Debug\Plight of the Programmer.exe
+C:\Users\Owner\Desktop\Plight-of-the-Programmer (1)\Plight of the Programmer\bin\Debug\Plight of the Programmer.pdb
+C:\Users\Owner\Desktop\Plight-of-the-Programmer (1)\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\Plight-of-the-Programmer (1)\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.GameWindow.resources
+C:\Users\Owner\Desktop\Plight-of-the-Programmer (1)\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.Properties.Resources.resources
+C:\Users\Owner\Desktop\Plight-of-the-Programmer (1)\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\Plight-of-the-Programmer (2)\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.exe
+C:\Users\Owner\Desktop\Plight-of-the-Programmer (2)\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.pdb
+C:\Users\Owner\Desktop\plight\Plight-of-the-Programmer (2)\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.exe
+C:\Users\Owner\Desktop\plight\Plight-of-the-Programmer (2)\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.pdb
+C:\Users\Owner\Desktop\plight\Plight-of-the-Programmer (2)\Plight of the Programmer\bin\Debug\Plight of the Programmer.exe
+C:\Users\Owner\Desktop\plight\Plight-of-the-Programmer (2)\Plight of the Programmer\bin\Debug\Plight of the Programmer.pdb
+C:\Users\Owner\Desktop\plight\Plight-of-the-Programmer (2)\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\plight\Plight-of-the-Programmer (2)\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.GameWindow.resources
+C:\Users\Owner\Desktop\plight\Plight-of-the-Programmer (2)\Plight of the Programmer\obj\x86\Debug\Plight_of_the_Programmer.Properties.Resources.resources
+C:\Users\Owner\Desktop\plight\Plight-of-the-Programmer (2)\Plight of the Programmer\obj\x86\Debug\Plight of the Programmer.csproj.GenerateResource.Cache
