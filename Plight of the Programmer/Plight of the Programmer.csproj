@@ -82,12 +82,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Menu1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Menu2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Avatar.png" />
   </ItemGroup>
   <ItemGroup>
@@ -104,9 +98,6 @@
     <None Include="Resources\Wall.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1-1.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Menu.gif" />
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +111,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Platform.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pauseMenu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
