@@ -102,6 +102,7 @@ namespace Plight_of_the_Programmer
         /*-----Functions-----*/
 
         public static bool movementx(int r)
+<<<<<<< HEAD
         {
             int TILE_SIZE = GraphicsEngine.TILE_SIZE;
             int q = ((Xpos + 24) / TILE_SIZE);
@@ -143,6 +144,49 @@ namespace Plight_of_the_Programmer
         }
         public static void movement(int w)
         {
+=======
+        {
+            int TILE_SIZE = GraphicsEngine.TILE_SIZE;
+            int q = ((Xpos + 24) / TILE_SIZE);
+            int f = ((Ypos + 32) / TILE_SIZE);
+            int g = ((Ypos-1) / TILE_SIZE);
+            int rl = ((Xpos + r ) / TILE_SIZE);
+           // int rr = ((Xpos + 2) / TILE_SIZE);
+
+            for (int p = rl; p <= q; p++)
+            {
+                for (int pp = g; pp <=f; pp++)
+                {
+                    switch (Level.TileID[p, pp])
+                    {
+                        case TextureID.air:
+                        case TextureID.playerSpawn:
+                        case TextureID.levelEnd:
+                            // Xpos = Xpos - 1;
+                            break;
+                        case TextureID.floorL:
+                        case TextureID.floorC:
+                        case TextureID.floorR:
+                        case TextureID.floorB:
+                        case TextureID.wallL:
+                        case TextureID.wallC:
+                        case TextureID.wallR:
+                        case TextureID.wallB:
+                        case TextureID.platformL:
+                        case TextureID.platformC:
+                        case TextureID.platformR:
+                        case TextureID.platformB:
+                            return true;
+                        //break;
+                    }
+                }
+
+            }
+            return false;
+        }
+        public static void movement(int w)
+        {//this is a comment to find on github
+>>>>>>> origin/graphics-update
                        switch (w)
                        {
                            case 0://move up
